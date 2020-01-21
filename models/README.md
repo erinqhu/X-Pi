@@ -17,4 +17,4 @@ These models are saved for fast loading when we continue to work on the model tr
 | ResNet50 | None | 50,000 | lr=slice(1e-5, 6e-3) | 78.8% |
 | Vgg16bn | None | 50,000 | lr=2e-2 | 77.66% |
 | Vgg16bn | None | 50,000 | lr=slice(1e-5, 4e-3) | 79.15% |
-| Vgg16bn| None, modified the original 1,000 output classes to 14 | lr=1e-5 | 83% |
+| Vgg16bn| None, modified the original 1,000 output classes to 14 | 48,000 (2,000 for test)| lr=1e-5 | 83% |
